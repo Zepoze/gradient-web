@@ -28,9 +28,17 @@ p#result{
 	align-self: center;
 	border-radius: 5px;
 	padding: 10px;
-	margin: 0%;
+	margin: 10px 0px 0px 0px;
 }
 
-#button{
-	margin: 10px auto; 
+.button{
+	display: block;
+	margin: 10px auto 0px auto;
+	padding: 5px 10px;
+	background-color: white;
+	border-radius: 5px;
+	color: #293340;
+	cursor: pointer;
+	text-align: center;
+	width: fit-content;
 }

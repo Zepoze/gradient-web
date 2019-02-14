@@ -1,6 +1,7 @@
 function gradient(){
 	document.getElementById("result").style.display="";
-
+	document.getElementById("copy").style.display="";
+	
 	var Fcolor = document.forms["gradient"]["first_color"].value;
 	var Scolor = document.forms["gradient"]["second_color"].value;
 
