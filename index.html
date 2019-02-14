@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Gradient</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div id="center">
+		<h1>Gradient</h1>
+		<form action="" id="gradient" onsubmit="return false;">
+			First color :</br>
+			<input type="text" name="first_color" value="#000000" maxlength="7"></br>
+			Second color :</br>
+			<input type="text" name="second_color" value="#000000" maxlength="7"></br>
+			Steps :</br>
+			<input type="text" name="steps" value="10"></br>
+			<button onclick="gradient()" id="button">Generate</button>
+		</form>
+		<p id="result" style="display: none"></p>
+	</div>
+</body>
+</html>
