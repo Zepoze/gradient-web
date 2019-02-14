@@ -22,7 +22,11 @@
 		</form>
 		<a onclick="gradient()" class="button">Generate</a>
 		<a class="button" id="copy" data-clipboard-target="#result" style="display: none">Copy</a>
-		<p id="result" style="display: none"></p>
+
+		<div id="white" style="display: none">
+				<p id="result" style="display: none"></p>
+		</div>
+
 	</div>
 	<script>
 		var clipboard = new ClipboardJS('#copy');

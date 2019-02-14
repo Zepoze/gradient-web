@@ -21,14 +21,18 @@ h1, form{
 	text-align: center;
 }
 
-p#result{
+div#white{
 	background-color: white;
 	color: #293340;
 	text-align: left;
-	align-self: center;
 	border-radius: 5px;
 	padding: 10px;
 	margin: 10px 0px 0px 0px;
+}
+
+p#result{
+	margin: 0px auto 0px auto;
+	width: fit-content;
 }
 
 .button{
@@ -41,4 +45,13 @@ p#result{
 	cursor: pointer;
 	text-align: center;
 	width: fit-content;
+	border: 2px solid white;
+	font-weight: bold;
+}
+
+.button:hover{
+	border: 2px solid white;
+	color: white;
+	background-color: #293340;
+	transition-duration: 0.4s;
 }
